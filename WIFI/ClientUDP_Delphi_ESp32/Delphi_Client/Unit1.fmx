@@ -1,0 +1,226 @@
+object F_Wifi: TF_Wifi
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 442
+  ClientWidth = 336
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ColorBox2: TColorBox
+    Align = Client
+    Color = claIndianred
+    Size.Width = 336.000000000000000000
+    Size.Height = 281.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object layEnviarTexto: TLayout
+      Align = Top
+      Position.Y = 70.000000000000000000
+      Size.Width = 336.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object edtEnvio: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 1
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 202.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'TEXTO A ENVIAR'
+        StyledSettings = [Family, Size, Style]
+      end
+      object btnEnviar: TButton
+        Align = Right
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 222.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 104.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Enviar'
+        TextSettings.FontColor = claWhite
+        OnClick = btnEnviarClick
+      end
+    end
+    object layEnvios: TLayout
+      Align = Top
+      Margins.Top = 20.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 336.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object btnDesligar: TButton
+        Align = Left
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 104.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Desligar'
+        TextSettings.FontColor = claWhite
+        OnClick = btnDesligarClick
+      end
+      object btnLigar: TButton
+        Align = Right
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 222.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 104.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Ligar'
+        TextSettings.FontColor = claWhite
+        OnClick = btnLigarClick
+      end
+    end
+    object layReceber: TLayout
+      Align = Top
+      Position.Y = 120.000000000000000000
+      Size.Width = 336.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object btnReceber: TButton
+        Align = Right
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 222.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 104.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Receber'
+        TextSettings.FontColor = claWhite
+        OnClick = btnReceberClick
+      end
+      object edtReceive: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 1
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 202.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'TEXO A RECEBER'
+        StyledSettings = [Family, Size, Style]
+      end
+    end
+  end
+  object layConfig: TLayout
+    Align = Top
+    Size.Width = 336.000000000000000000
+    Size.Height = 161.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object ColorBox1: TColorBox
+      Align = Client
+      Color = claIndianred
+      Size.Width = 336.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object btnConexao: TButton
+        Align = Top
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 109.000000000000000000
+        Size.Width = 316.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'CONECTAR'
+        TextSettings.FontColor = claWhite
+        OnClick = btnConexaoClick
+      end
+      object edtIP: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        Text = '192.168.0.102'
+        Position.X = 10.000000000000000000
+        Position.Y = 72.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Size.Width = 316.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'IP'
+        StyledSettings = [Family, Size, Style]
+      end
+      object edtPort: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 2
+        Text = '8080'
+        Position.X = 10.000000000000000000
+        Position.Y = 35.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Size.Width = 316.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'PORTA'
+        StyledSettings = [Family, Size, Style]
+      end
+      object lblTitulo: TLabel
+        Align = Top
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 316.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'CONFIGURA'#199#213'ES'
+        TabOrder = 3
+      end
+    end
+  end
+  object udp: TIdUDPClient
+    Active = True
+    Port = 0
+    ReceiveTimeout = 0
+    Left = 256
+    Top = 368
+  end
+end

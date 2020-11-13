@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/08/03 19:45:16.000.166,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 20:25:45.000.088,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 20:25:46.000.780,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:25:58.000.513,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:27:59.000.481,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 20:27:59.000.703,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:27:59.000.610,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:29:04.000.504,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 20:29:04.000.653,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:29:22.000.374,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2020/08/08 13:42:54.000.437,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/01 21:26:38.000.462,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/01 21:53:28.000.718,C:\Users\Sileide Campos\Desktop\curso\ServerTCP\Unit1.pas=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/01 21:53:28.000.718,C:\Users\Sileide Campos\Desktop\curso\ServerTCP\Unit1.fmx=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/11/01 21:53:35.000.682,C:\Users\Sileide Campos\Desktop\curso\ServerTCP\Project1.dproj=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/11/02 15:26:46.000.002,C:\Users\Sileide Campos\Desktop\WiFi 03112020\AulaWIFI\ServerUPD_Delphi_Esp32_Broadcast\Delphi_ServerUDP\WiFiServer.dproj=C:\Users\Sileide Campos\Desktop\curso\ServerTCP\Project1.dproj</Transaction>
+    <Transaction>2020/11/02 15:27:04.000.141,C:\Users\Sileide Campos\Desktop\WiFi 03112020\AulaWIFI\ServerUPD_Delphi_Esp32_Broadcast\Delphi_ServerUDP\Unit1.pas=C:\Users\Sileide Campos\Desktop\curso\ServerTCP\Unit1.pas</Transaction>
+    <Transaction>2020/11/02 15:27:04.000.141,C:\Users\Sileide Campos\Desktop\WiFi 03112020\AulaWIFI\ServerUPD_Delphi_Esp32_Broadcast\Delphi_ServerUDP\Unit1.fmx=C:\Users\Sileide Campos\Desktop\curso\ServerTCP\Unit1.fmx</Transaction>
+  </Transactions>
+</BorlandProject>

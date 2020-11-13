@@ -1,0 +1,81 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 432
+  ClientWidth = 322
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object mDadosRecebidos: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Size.Width = 322.000000000000000000
+    Size.Height = 295.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 318.000000000000000000
+    Viewport.Height = 291.000000000000000000
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 322.000000000000000000
+    Size.Height = 137.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object edtPorta: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 0
+      Text = '3333'
+      TextSettings.Font.Size = 20.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 42.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 302.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+    object btnAbrirConexao: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 88.000000000000000000
+      Size.Width = 302.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Conectar'
+      OnClick = btnAbrirConexaoClick
+    end
+    object lblTitulo: TLabel
+      Align = Top
+      StyledSettings = [Family, Style, FontColor]
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 302.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      Text = 'Porta:'
+      TabOrder = 2
+    end
+  end
+  object IdUDPServer: TIdUDPServer
+    Bindings = <>
+    DefaultPort = 0
+    OnUDPRead = IdUDPServerUDPRead
+    Left = 240
+    Top = 16
+  end
+end
