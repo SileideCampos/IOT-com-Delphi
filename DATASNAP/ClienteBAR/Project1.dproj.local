@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/08/03 19:45:16.000.166,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 20:25:45.000.088,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 20:25:46.000.780,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:25:58.000.513,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:27:59.000.481,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 20:27:59.000.703,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:27:59.000.610,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:29:04.000.653,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2020/08/03 20:29:04.000.504,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 20:29:22.000.374,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2020/08/03 21:25:01.000.564,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 21:28:03.000.378,=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/08/03 21:35:04.000.758,C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ClienteBAR\Unit1.pas=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 21:35:04.000.758,C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ClienteBAR\Unit1.fmx=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/08/03 21:35:07.000.171,C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ClienteBAR\ClientClassesUnit1.pas=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/08/03 21:35:09.000.171,C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\ClienteBAR\Project1.dproj=C:\Users\Sileide Campos\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

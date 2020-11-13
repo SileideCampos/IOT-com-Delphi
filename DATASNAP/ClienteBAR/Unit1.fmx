@@ -1,0 +1,107 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 252
+  ClientWidth = 518
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object mMensagem: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Size.Width = 518.000000000000000000
+    Size.Height = 179.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 514.000000000000000000
+    Viewport.Height = 175.000000000000000000
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 518.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object btnFecharConta: TButton
+      Align = Left
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 403.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Fechar a Conta'
+      OnClick = btnFecharContaClick
+    end
+    object btnChamarGarcon: TButton
+      Align = Left
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 283.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'Chamar Gar'#231'om'
+      OnClick = btnChamarGarconClick
+    end
+    object btnPedirCerveja: TButton
+      Align = Left
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 163.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'Pedir Cerveja'
+      OnClick = btnPedirCervejaClick
+    end
+    object lblMesa: TLabel
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Mesa:'
+      TabOrder = 6
+    end
+    object edtMesa: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Left
+      TabOrder = 7
+      Cursor = crIBeam
+      Min = 1.000000000000000000
+      Value = 1.000000000000000000
+      Position.X = 59.000000000000000000
+      Position.Y = 20.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Size.Width = 84.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object DSRestConnection1: TDSRestConnection
+    Host = 'localhost'
+    Port = 8080
+    Left = 304
+    Top = 128
+    UniqueId = '{FEA3495E-47A8-426E-9B58-27E048C7A673}'
+  end
+end
