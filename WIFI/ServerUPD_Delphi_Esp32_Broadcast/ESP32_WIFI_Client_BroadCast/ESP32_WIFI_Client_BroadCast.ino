@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
-const char * networkName = "STARK 2.4G";
-const char * networkPswd = "01550123";
+const char * networkName = "sua-rede-wifi";
+const char * networkPswd = "sua-senha";
 
 const char * udpAddress = "192.168.0.255";  //envio broadcast
 const int udpPort = 3333;
