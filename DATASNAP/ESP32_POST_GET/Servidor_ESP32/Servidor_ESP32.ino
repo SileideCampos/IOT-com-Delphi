@@ -6,7 +6,7 @@
  
 const char* ssid  = "";
 const char* senha = "";
-String serverName = "http://54.245.48.255:8080/datasnap/rest/Ty/";
+String serverName = "http://IP:PORTA/datasnap/rest/Ty/";
  
 void setup() {   
   Serial.begin(115200);
