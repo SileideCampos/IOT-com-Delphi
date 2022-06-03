@@ -5,8 +5,8 @@
 
 #define LED 2 
 
-const char* ssid = "STARK 2.4G";
-const char* password = "01550123";
+const char* ssid = "";
+const char* password = "";
 
 void setup(){
 
