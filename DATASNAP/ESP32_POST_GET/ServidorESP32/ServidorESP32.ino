@@ -3,9 +3,9 @@
 
 #define touch 4
  
-const char* ssid  = "STARK 2.4G";
-const char* senha = "01550123";
-String serverName = "http://192.168.0.102:8080/datasnap/rest/Ty/";
+const char* ssid  = "";
+const char* senha = "";
+String serverName = "http://IP:PORTA/datasnap/rest/Ty/";
  
 void setup() {   
   Serial.begin(115200);
@@ -28,7 +28,7 @@ void loop() {
     if (touchRead(touch) < 50) {
       digitalWrite(2, HIGH);
       
-      http.begin("http://192.168.0.102:8080/datasnap/rest/Ty/Debito");
+      http.begin("http://IP:PORTA/datasnap/rest/Ty/Debito");
       
       http.addHeader("Content-Type", "application/json");
       
