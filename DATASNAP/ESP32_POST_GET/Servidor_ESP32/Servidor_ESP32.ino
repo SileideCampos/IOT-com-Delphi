@@ -4,8 +4,8 @@
 #define touch 4
 #define rele 2   //pino D2
  
-const char* ssid  = "STARK 2.4G";
-const char* senha = "01550123";
+const char* ssid  = "";
+const char* senha = "";
 String serverName = "http://54.245.48.255:8080/datasnap/rest/Ty/";
  
 void setup() {   
