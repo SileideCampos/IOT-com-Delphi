@@ -6,8 +6,8 @@
 #define trigger 21
 #define rele 15
 
-const char* ssid = "STARK 2.4G";
-const char* senha = "01550123";
+const char* ssid = "";
+const char* senha = "";
 unsigned int porta = 3333;
 char pacote[10];
 
